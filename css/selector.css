@@ -1,0 +1,29 @@
+.topLevelButton {
+  border: 1px outset black;
+  background-image: url('https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50');
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.topLevelButton:hover {
+  background-color: blue;
+  color: white;
+}
+#builderSlideMenu {
+  width: 430px;
+  height: 177px;
+  background-color: #424141;
+}
+#doneButton {
+  left: 45%;
+  position: absolute;
+  right: 50%;
+  margin-top: 15px;
+}
+#selectedArea {
+  padding-left: 10px;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-top: 5px;
+}
