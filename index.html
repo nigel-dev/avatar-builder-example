@@ -17,6 +17,9 @@
     <link href="css/tinycarousel.css" rel="stylesheet">
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      
+      <script src="js/pixi.min.js"></script>
+      <script src="js/pixi-spine.min.js"></script>
 
 <!-- Here comes Animate.css -->
 
@@ -34,15 +37,15 @@
         <span aria-hidden="true" class="topMenuDisplay glyphicon glyphicon-triangle-bottom"></span>
       </nav>
         
-        <div id="avatar"></div>
+        <div id="avatar" class="im-centered"></div>
 
       <div class="im-centered" id="builderMenu">
-        <img class="padded" id="hairstyles" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"/>
-        <img class="padded" id="faces" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"/>
-        <img class="padded" id="hats" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"/>
-        <img class="padded" id="shirts" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"/>
-        <img class="padded" id="torsos" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"/>
-        <img class="padded" id="other" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"/>
+        <img class="padded" id="hairstyles" src="images/lock.png"/>
+        <img class="padded" id="faces" src="images/lock.png"/>
+        <img class="padded" id="hats" src="images/lock.png"/>
+        <img class="padded" id="shirts" src="images/shirt.png"/>
+        <img class="padded" id="torsos" src="images/lock.png"/>
+        <img class="padded" id="other" src="images/lock.png"/>
       </div>
 
       <div class="im-centered" id="builderSlideMenu" style="display: none;">
@@ -53,16 +56,16 @@
           <a class="buttons prev glyphicon glyphicon-chevron-left" href="#"></a>
           <div class="viewport">
             <ul class="overview" style="width: 1134px; left: -252px;">
-              <li><img alt="image 1" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"></li>
-              <li><img alt="image 2" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"></li>
-              <li><img alt="image 3" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"></li>
-              <li><img alt="image 4" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"></li>
-              <li><img alt="image 5" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"></li>
-              <li><img alt="image 6" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"></li>
-              <li><img alt="image 7" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"></li>
-              <li><img alt="image 8" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"></li>
-              <li><img alt="image 9" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"></li>
-              <li><img alt="image 10" src="https://placeholdit.imgix.net/~text?txtsize=9&txt=50%C3%9750&w=50&h=50"></li>
+              <li><img alt="image 1" src="images/lock.png"></li>
+              <li style="background-color:orangered;"><img alt="image 2" src="images/shirt.png"></li>
+              <li style="background-color:blue;"><img alt="image 3" src="images/shirt.png"></li>
+              <li><img alt="image 4" src="images/lock.png"></li>
+              <li><img alt="image 5" src="images/lock.png"></li>
+              <li><img alt="image 6" src="images/lock.png"></li>
+              <li><img alt="image 7" src="images/lock.png"></li>
+              <li><img alt="image 8" src="images/lock.png"></li>
+              <li><img alt="image 9" src="images/lock.png"></li>
+              <li><img alt="image 10" src="images/lock.png"></li>
             </div>
 
             <a class="buttons next glyphicon glyphicon-chevron-right" href="#"></a>
@@ -75,6 +78,7 @@
           <input class="btn btn-default" id="doneButton" type="button" value="Done">
 
         </div>
+<!--          <button id="test">Test</button>-->
       </div>
 <!-- /.container -->
 
