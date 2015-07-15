@@ -1,0 +1,46 @@
+{"skeleton":{"images":"images/"},
+"bones":[{"name":"root"}],
+"slots":[
+	{"name":"right shoe","bone":"root","attachment":"right shoe"},
+	{"name":"right shin","bone":"root","attachment":"right shin"},
+	{"name":"right thigh","bone":"root","attachment":"right thigh"},
+	{"name":"left shoe","bone":"root","attachment":"left shoe"},
+	{"name":"left shin","bone":"root","attachment":"left shin"},
+	{"name":"left thigh","bone":"root","attachment":"left thigh"},
+	{"name":"right upper arm","bone":"root","attachment":"right upper arm"},
+	{"name":"right lower arm","bone":"root","attachment":"right lower arm"},
+	{"name":"right hand","bone":"root","attachment":"right hand"},
+	{"name":"hips","bone":"root","attachment":"hips"},
+	{"name":"torso","bone":"root","attachment":"torso"},
+	{"name":"left upper arm","bone":"root","attachment":"left upper arm"},
+	{"name":"left lower arm","bone":"root","attachment":"left lower arm"},
+	{"name":"left hand","bone":"root","attachment":"left hand"},
+	{"name":"neck","bone":"root","attachment":"neck"},
+	{"name":"head","bone":"root","attachment":"head"},
+	{"name":"pony","bone":"root","attachment":"pony"},
+	{"name":"hair","bone":"root","attachment":"hair"}
+],
+"skins":{
+	"default":{
+		"hair":{"hair":{"x":171.5,"y":527.5,"width":265,"height":215}},
+		"pony":{"pony":{"x":330.5,"y":540.5,"width":143,"height":193}},
+		"head":{"head":{"x":165,"y":504,"width":192,"height":204}},
+		"neck":{"neck":{"x":201.5,"y":423.5,"width":59,"height":67}},
+		"left hand":{"left hand":{"x":265.5,"y":234.5,"width":39,"height":79}},
+		"left lower arm":{"left lower arm":{"x":267.5,"y":297,"width":29,"height":94}},
+		"left upper arm":{"left upper arm":{"x":246,"y":362,"width":68,"height":88}},
+		"torso":{"torso":{"x":182.5,"y":357.5,"width":127,"height":153}},
+		"hips":{"hips":{"x":171,"y":269.5,"width":120,"height":133}},
+		"right hand":{"right hand":{"x":87,"y":348.5,"width":108,"height":141}},
+		"right lower arm":{"right lower arm":{"x":134,"y":317.5,"width":90,"height":57}},
+		"right upper arm":{"right upper arm":{"x":158,"y":369.5,"width":52,"height":101}},
+		"left thigh":{"left thigh":{"x":213.5,"y":193.5,"width":65,"height":141}},
+		"left shin":{"left shin":{"x":237.5,"y":99.5,"width":53,"height":103}},
+		"left shoe":{"left shoe":{"x":260,"y":37.5,"width":70,"height":69}},
+		"right thigh":{"right thigh":{"x":151,"y":197.5,"width":56,"height":131}},
+		"right shin":{"right shin":{"x":151,"y":103,"width":48,"height":112}},
+		"right shoe":{"right shoe":{"x":113.5,"y":50.4999999999999,"width":105,"height":63}}
+	}
+},
+"animations":{"animation":{}}
+}
